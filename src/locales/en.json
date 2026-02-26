@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "education": "Education",
+    "contact": "Contact",
+    "hireMe": "Hire Me"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Bakhrom",
+    "surname": "Vakhobov",
+    "title": "Backend Developer | Python Enthusiast",
+    "typingTexts": [
+      "I build scalable backend systems and production-ready applications.",
+      "Crafting secure APIs with Django & FastAPI.",
+      "Deploying with Docker on Linux servers."
+    ],
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "heading": "Building the Backend that Powers the Future",
+    "description1": "Backend developer experienced in Django, FastAPI, REST APIs, and PostgreSQL. Focused on scalable architecture, secure backend systems, and production deployment.",
+    "description2": "Experienced with Docker, Git, and Linux environments. Strong understanding of clean architecture and performance optimization.",
+    "location": "Based in Tashkent, Uzbekistan"
+  },
+  "skills": {
+    "title": "Skills",
+    "heading": "Technical Expertise",
+    "categories": {
+      "programming": "Programming",
+      "frameworks": "Frameworks",
+      "database": "Database",
+      "devops": "DevOps & Tools"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "heading": "Featured Work",
+    "featured": [
+      {
+        "title": "Toshvziti.uz",
+        "subtitle": "Backend Improvements",
+        "description": [
+          "Fixed backend logic issues",
+          "Improved financial reporting accuracy",
+          "Enhanced data consistency",
+          "Strengthened security and deployment stability"
+        ],
+        "tags": ["Django", "PostgreSQL", "REST API", "Docker"],
+        "link": "https://toshvziti.uz/"
+      },
+      {
+        "title": "Instagram Clone",
+        "subtitle": "REST API",
+        "description": [
+          "Built scalable RESTful API",
+          "Implemented authentication and CRUD operations",
+          "Designed optimized database schema",
+          "Applied clean architecture principles"
+        ],
+        "tags": ["FastAPI", "PostgreSQL", "JWT", "Python"],
+        "link": "https://github.com/Vakhobov/instagram-clone"
+      }
+    ],
+    "additional": [
+      {
+        "title": "AI & Machine Learning Projects",
+        "description": "Collection of AI and machine learning assignments implemented using Python and Jupyter Notebook.",
+        "tags": ["Python", "Jupyter", "ML"],
+        "link": "https://github.com/Vakhobov/ai-ml-projects"
+      },
+      {
+        "title": "Big Data Projects",
+        "description": "Big data assignments using Spark, PySpark, and machine learning techniques.",
+        "tags": ["Spark", "PySpark", "ML"],
+        "link": "https://github.com/Vakhobov/big-data-projects"
+      },
+      {
+        "title": "Library Management System",
+        "description": "Backend-focused library management system built using Django REST Framework with authentication and CRUD operations.",
+        "tags": ["Django", "DRF", "Auth"],
+        "link": "https://github.com/Vakhobov/library_project"
+      },
+      {
+        "title": "Django News Website",
+        "description": "A Django-based news publishing platform with content management functionality.",
+        "tags": ["Django", "CMS"],
+        "link": "https://github.com/Vakhobov/news-website"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "heading": "Career Timeline",
+    "jobs": [
+      {
+        "role": "Junior Backend Developer",
+        "company": "RAKUNA LLC",
+        "period": "08/2025 – Present",
+        "points": [
+          "Developed RESTful APIs using FastAPI and PostgreSQL",
+          "Designed relational databases",
+          "Implemented secure authentication systems",
+          "Collaborated using Git workflow"
+        ]
+      },
+      {
+        "role": "Accountant",
+        "company": "UZBAT AO",
+        "period": "09/2022 – 07/2024",
+        "points": [
+          "Structured financial data",
+          "Improved reporting automation",
+          "Conducted internal audits"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "heading": "Academic Background",
+    "degrees": [
+      {
+        "degree": "Bachelor's Degree",
+        "field": "Information Technology / Computer Science",
+        "description": "Academic focus on Software Engineering, Backend Development, Data Structures & Algorithms, Database Systems, AI/ML, Cybersecurity, and Linux-based system administration."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "heading": "Let's Connect",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "your@email.com",
+      "messagePlaceholder": "Your message...",
+      "sendButton": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you for your message! I'll get back to you soon."
+    },
+    "location": "Tashkent, Uzbekistan",
+    "footer": "Built with passion by Bakhrom Vakhobov"
+  },
+  "language": {
+    "switch": "Language"
+  }
+}

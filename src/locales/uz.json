@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "about": "Men haqimda",
+    "skills": "Ko'nikmalar",
+    "projects": "Loyihalar",
+    "experience": "Tajriba",
+    "education": "Ta'lim",
+    "contact": "Aloqa",
+    "hireMe": "Yollash"
+  },
+  "hero": {
+    "greeting": "Salom, men",
+    "name": "Bahrom",
+    "surname": "Vaxobov",
+    "title": "Backend Dasturchi | Python ixlosmandi",
+    "typingTexts": [
+      "Men kengaytiriladigan backend tizimlar va ishlab chiqarishga tayyor ilovalarni yarataman.",
+      "Django & FastAPI bilan xavfsiz APIlar yarataman.",
+      "Docker bilan Linux serverlarida joylashtiraman."
+    ],
+    "viewProjects": "Loyihalarni ko'rish",
+    "contactMe": "Men bilan bog'laning"
+  },
+  "about": {
+    "title": "Men haqimda",
+    "heading": "Kelajakni quvvatlaydigan Backendni quraman",
+    "description1": "Django, FastAPI, REST API va PostgreSQL bo'yicha tajribali backend dasturchi. Kengaytiriladigan arxitektura, xavfsiz backend tizimlari va ishlab chiqarish joylashtirishiga qaratilgan.",
+    "description2": "Docker, Git va Linux muhitlari bilan tajribali. Toza arxitektura va ishlashni optimallashtirish bo'yicha kuchli tushuncha.",
+    "location": "Toshkent, O'zbekiston"
+  },
+  "skills": {
+    "title": "Ko'nikmalar",
+    "heading": "Texnik tajriba",
+    "categories": {
+      "programming": "Dasturlash",
+      "frameworks": "Freymvorklar",
+      "database": "Ma'lumotlar bazasi",
+      "devops": "DevOps & Toollar"
+    }
+  },
+  "projects": {
+    "title": "Loyihalar",
+    "heading": "Tanlangan ishlar",
+    "featured": [
+      {
+        "title": "Toshvziti.uz",
+        "subtitle": "Backend yaxshilanishlari",
+        "description": [
+          "Backend mantiq muammolarini tuzatdim",
+          "Moliyaviy hisobotlar aniqligini yaxshiladim",
+          "Ma'lumotlar izchilligini kuchaytirdim",
+          "Xavfsizlik va joylashtirish barqarorligini mustahkamladim"
+        ],
+        "tags": ["Django", "PostgreSQL", "REST API", "Docker"],
+        "link": "https://toshvziti.uz/"
+      },
+      {
+        "title": "Instagram Clone",
+        "subtitle": "REST API",
+        "description": [
+          "Kengaytiriladigan RESTful API qurdim",
+          "Autentifikatsiya va CRUD operatsiyalarini amalga oshirdim",
+          "Optimallashtirilgan ma'lumotlar bazasi sxemasini loyihalashtirdim",
+          "Toza arxitektura tamoyillarini qo'lladim"
+        ],
+        "tags": ["FastAPI", "PostgreSQL", "JWT", "Python"],
+        "link": "https://github.com/Vakhobov/instagram-clone"
+      }
+    ],
+    "additional": [
+      {
+        "title": "AI & Machine Learning loyihalari",
+        "description": "Python va Jupyter Notebook yordamida amalga oshirilgan AI va mashinaviy o'rganish topshiriqlari to'plami.",
+        "tags": ["Python", "Jupyter", "ML"],
+        "link": "https://github.com/Vakhobov/ai-ml-projects"
+      },
+      {
+        "title": "Big Data loyihalari",
+        "description": "Spark, PySpark va mashinaviy o'rganish usullaridan foydalangan holda big data topshiriqlari.",
+        "tags": ["Spark", "PySpark", "ML"],
+        "link": "https://github.com/Vakhobov/big-data-projects"
+      },
+      {
+        "title": "Kutubxona boshqaruv tizimi",
+        "description": "Django REST Framework yordamida autentifikatsiya va CRUD operatsiyalari bilan backendga qaratilgan kutubxona boshqaruv tizimi.",
+        "tags": ["Django", "DRF", "Auth"],
+        "link": "https://github.com/Vakhobov/library_project"
+      },
+      {
+        "title": "Django yangiliklar veb-sayti",
+        "description": "Kontent boshqaruv funksiyasi bilan Django asosidagi yangiliklar nashr platformasi.",
+        "tags": ["Django", "CMS"],
+        "link": "https://github.com/Vakhobov/news-website"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Tajriba",
+    "heading": "Karyera vaqti",
+    "jobs": [
+      {
+        "role": "Kichik Backend Dasturchi",
+        "company": "RAKUNA LLC",
+        "period": "08/2025 – Hozirgi vaqt",
+        "points": [
+          "FastAPI va PostgreSQL yordamida RESTful APIlar ishlab chiqdim",
+          "Relatsion ma'lumotlar bazalarini loyihalashtirdim",
+          "Xavfsiz autentifikatsiya tizimlarini amalga oshirdim",
+          "Git workflow yordamida hamkorlik qildim"
+        ]
+      },
+      {
+        "role": "Buxgalter",
+        "company": "UZBAT AO",
+        "period": "09/2022 – 07/2024",
+        "points": [
+          "Moliyaviy ma'lumotlarni tuzdim",
+          "Hisobotlar avtomatizatsiyasini yaxshiladim",
+          "Ichki auditlar o'tkazdim"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Ta'lim",
+    "heading": "O'quv asosi",
+    "degrees": [
+      {
+        "degree": "Bakalavr darajasi",
+        "field": "Axborot texnologiyalari / Informatika",
+        "description": "Programma injiniriyasi, Backend development, ma'lumotlar strukturalari va algoritmlar, baza tizimlar, AI/ML, kiberxavfsizlik va Linux asosida tizim administratsiyasiga qaratilgan akademik fokus."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Aloqa",
+    "heading": "Bog'lanaylik",
+    "form": {
+      "name": "Ism",
+      "email": "Email",
+      "message": "Xabar",
+      "namePlaceholder": "Sizning ismingiz",
+      "emailPlaceholder": "sizning@email.com",
+      "messagePlaceholder": "Sizning xabaringiz...",
+      "sendButton": "Xabarni yuborish",
+      "sending": "Yuborilmoqda...",
+      "success": "Xabaringiz uchun rahmat! Tez orada siz bilan bog'lanaman."
+    },
+    "location": "Toshkent, O'zbekiston",
+    "footer": "Bahrom Vaxobov tomonidan ishtiyoq bilan qurilgan"
+  },
+  "language": {
+    "switch": "Til"
+  }
+}

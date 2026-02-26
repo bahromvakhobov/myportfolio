@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "about": "Обо мне",
+    "skills": "Навыки",
+    "projects": "Проекты",
+    "experience": "Опыт",
+    "education": "Образование",
+    "contact": "Контакты",
+    "hireMe": "Нанять меня"
+  },
+  "hero": {
+    "greeting": "Привет, я",
+    "name": "Бахром",
+    "surname": "Вахобов",
+    "title": "Backend Разработчик | Энтузиаст Python",
+    "typingTexts": [
+      "Я создаю масштабируемые backend системы и готовые к производству приложения.",
+      "Создаю безопасные API с Django & FastAPI.",
+      "Развертываю с Docker на Linux серверах."
+    ],
+    "viewProjects": "Посмотреть проекты",
+    "contactMe": "Связаться со мной"
+  },
+  "about": {
+    "title": "Обо мне",
+    "heading": "Создаю Backend, который питает будущее",
+    "description1": "Backend разработчик с опытом в Django, FastAPI, REST API и PostgreSQL. Фокусируюсь на масштабируемой архитектуре, безопасных backend системах и развертывании в производство.",
+    "description2": "Опыт работы с Docker, Git и Linux средами. Сильное понимание чистой архитектуры и оптимизации производительности.",
+    "location": "Базируется в Ташкенте, Узбекистан"
+  },
+  "skills": {
+    "title": "Навыки",
+    "heading": "Техническая экспертиза",
+    "categories": {
+      "programming": "Программирование",
+      "frameworks": "Фреймворки",
+      "database": "База данных",
+      "devops": "DevOps & Инструменты"
+    }
+  },
+  "projects": {
+    "title": "Проекты",
+    "heading": "Избранные работы",
+    "featured": [
+      {
+        "title": "Toshvziti.uz",
+        "subtitle": "Улучшения Backend",
+        "description": [
+          "Исправил проблемы логики backend",
+          "Улучшил точность финансовой отчетности",
+          "Усилил согласованность данных",
+          "Укрепил безопасность и стабильность развертывания"
+        ],
+        "tags": ["Django", "PostgreSQL", "REST API", "Docker"],
+        "link": "https://toshvziti.uz/"
+      },
+      {
+        "title": "Instagram Clone",
+        "subtitle": "REST API",
+        "description": [
+          "Создал масштабируемый RESTful API",
+          "Реализовал аутентификацию и CRUD операции",
+          "Спроектировал оптимизированную схему базы данных",
+          "Применил принципы чистой архитектуры"
+        ],
+        "tags": ["FastAPI", "PostgreSQL", "JWT", "Python"],
+        "link": "https://github.com/Vakhobov/instagram-clone"
+      }
+    ],
+    "additional": [
+      {
+        "title": "Проекты AI & Machine Learning",
+        "description": "Коллекция заданий по AI и машинному обучению, реализованных с использованием Python и Jupyter Notebook.",
+        "tags": ["Python", "Jupyter", "ML"],
+        "link": "https://github.com/Vakhobov/ai-ml-projects"
+      },
+      {
+        "title": "Проекты Big Data",
+        "description": "Задания по большим данным с использованием Spark, PySpark и техник машинного обучения.",
+        "tags": ["Spark", "PySpark", "ML"],
+        "link": "https://github.com/Vakhobov/big-data-projects"
+      },
+      {
+        "title": "Система управления библиотекой",
+        "description": "Ориентированная на backend система управления библиотекой, созданная с использованием Django REST Framework с аутентификацией и CRUD операциями.",
+        "tags": ["Django", "DRF", "Auth"],
+        "link": "https://github.com/Vakhobov/library_project"
+      },
+      {
+        "title": "Новостной сайт на Django",
+        "description": "Платформа публикации новостей на базе Django с функциональностью управления контентом.",
+        "tags": ["Django", "CMS"],
+        "link": "https://github.com/Vakhobov/news-website"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Опыт",
+    "heading": "Карьерная хронология",
+    "jobs": [
+      {
+        "role": "Младший Backend Разработчик",
+        "company": "RAKUNA LLC",
+        "period": "08/2025 – Настоящее время",
+        "points": [
+          "Разработал RESTful API с использованием FastAPI и PostgreSQL",
+          "Спроектировал реляционные базы данных",
+          "Реализовал системы безопасной аутентификации",
+          "Сотрудничал с использованием Git workflow"
+        ]
+      },
+      {
+        "role": "Бухгалтер",
+        "company": "UZBAT AO",
+        "period": "09/2022 – 07/2024",
+        "points": [
+          "Структурировал финансовые данные",
+          "Улучшил автоматизацию отчетности",
+          "Проводил внутренние аудиты"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Образование",
+    "heading": "Образовательная подготовка",
+    "degrees": [
+      {
+        "degree": "Степень бакалавра",
+        "field": "Информационные технологии / Информатика",
+        "description": "Академический фокус на инженерии программного обеспечения, разработке Backend, структурах данных и алгоритмах, системах баз данных, AI/ML, кибербезопасности и администрировании систем на основе Linux."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Контакты",
+    "heading": "Давайте свяжемся",
+    "form": {
+      "name": "Имя",
+      "email": "Email",
+      "message": "Сообщение",
+      "namePlaceholder": "Ваше имя",
+      "emailPlaceholder": "ваш@email.com",
+      "messagePlaceholder": "Ваше сообщение...",
+      "sendButton": "Отправить сообщение",
+      "sending": "Отправка...",
+      "success": "Спасибо за ваше сообщение! Я свяжусь с вами скоро."
+    },
+    "location": "Ташкент, Узбекистан",
+    "footer": "Создано с страстью Бахромом Вахобовым"
+  },
+  "language": {
+    "switch": "Язык"
+  }
+}

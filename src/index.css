@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 25% 4%;
+    --foreground: 210 40% 93%;
+
+    --card: 222 20% 7%;
+    --card-foreground: 210 40% 93%;
+
+    --popover: 222 20% 7%;
+    --popover-foreground: 210 40% 93%;
+
+    --primary: 200 100% 55%;
+    --primary-foreground: 222 25% 4%;
+
+    --secondary: 270 100% 65%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 220 15% 12%;
+    --muted-foreground: 215 15% 55%;
+
+    --accent: 270 100% 65%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 15% 15%;
+    --input: 220 15% 12%;
+    --ring: 200 100% 55%;
+
+    --radius: 0.75rem;
+
+    --neon-blue: 200 100% 55%;
+    --neon-purple: 270 100% 65%;
+    --neon-cyan: 185 100% 55%;
+    --deep-navy: 222 30% 6%;
+    --glass: 220 20% 10%;
+    --glass-border: 220 15% 20%;
+
+    --glow-blue: 0 0 20px hsl(200 100% 55% / 0.4), 0 0 60px hsl(200 100% 55% / 0.1);
+    --glow-purple: 0 0 20px hsl(270 100% 65% / 0.4), 0 0 60px hsl(270 100% 65% / 0.1);
+    --glow-soft: 0 0 40px hsl(200 100% 55% / 0.15);
+
+    --gradient-neon: linear-gradient(135deg, hsl(200 100% 55%), hsl(270 100% 65%));
+    --gradient-dark: linear-gradient(180deg, hsl(222 25% 4%), hsl(222 30% 6%));
+    --gradient-glass: linear-gradient(135deg, hsl(220 20% 10% / 0.6), hsl(220 20% 10% / 0.2));
+
+    --sidebar-background: 222 25% 4%;
+    --sidebar-foreground: 210 40% 93%;
+    --sidebar-primary: 200 100% 55%;
+    --sidebar-primary-foreground: 222 25% 4%;
+    --sidebar-accent: 220 15% 12%;
+    --sidebar-accent-foreground: 210 40% 93%;
+    --sidebar-border: 220 15% 15%;
+    --sidebar-ring: 200 100% 55%;
+    --navbar-height: 64px;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Space Grotesk', 'Inter', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* offset anchor scroll so content isn't hidden under fixed navbar */
+  section,
+  [id] {
+    scroll-margin-top: var(--navbar-height);
+  }
+
+  /* adjust navbar height on small screens if needed */
+  @media (max-width: 640px) {
+    :root {
+      --navbar-height: 72px;
+    }
+  }
+
+  ::selection {
+    background: hsl(200 100% 55% / 0.3);
+    color: hsl(210 40% 98%);
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(222 25% 4%);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(200 100% 55% / 0.3);
+    border-radius: 3px;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-card/40 backdrop-blur-xl border border-glass-border rounded-xl;
+  }
+
+  .glass-strong {
+    @apply bg-card/60 backdrop-blur-2xl border border-glass-border rounded-xl;
+  }
+
+  .glow-blue {
+    box-shadow: var(--glow-blue);
+  }
+
+  .glow-purple {
+    box-shadow: var(--glow-purple);
+  }
+
+  .glow-soft {
+    box-shadow: var(--glow-soft);
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-neon);
+  }
+
+  .border-glow {
+    @apply border border-primary/30;
+    box-shadow: inset 0 0 20px hsl(200 100% 55% / 0.05), 0 0 20px hsl(200 100% 55% / 0.1);
+  }
+
+  .neon-btn {
+    @apply relative overflow-hidden px-8 py-3 rounded-lg font-semibold transition-all duration-300;
+    background: linear-gradient(135deg, hsl(200 100% 55% / 0.15), hsl(270 100% 65% / 0.15));
+    border: 1px solid hsl(200 100% 55% / 0.4);
+  }
+
+  .neon-btn:hover {
+    background: linear-gradient(135deg, hsl(200 100% 55% / 0.3), hsl(270 100% 65% / 0.3));
+    box-shadow: var(--glow-blue);
+    border-color: hsl(200 100% 55% / 0.7);
+    transform: translateY(-2px);
+  }
+
+  .neon-btn-solid {
+    @apply relative overflow-hidden px-8 py-3 rounded-lg font-semibold transition-all duration-300;
+    background: var(--gradient-neon);
+    color: hsl(222 25% 4%);
+  }
+
+  .neon-btn-solid:hover {
+    box-shadow: var(--glow-blue);
+    transform: translateY(-2px);
+  }
+
+  .grid-bg {
+    background-image:
+      linear-gradient(hsl(220 15% 15% / 0.3) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(220 15% 15% / 0.3) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  .tilt-card {
+    transform-style: preserve-3d;
+    perspective: 1000px;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotateX(0deg) rotateY(0deg); }
+  25% { transform: translateY(-20px) rotateX(5deg) rotateY(5deg); }
+  50% { transform: translateY(-10px) rotateX(0deg) rotateY(10deg); }
+  75% { transform: translateY(-25px) rotateX(-5deg) rotateY(5deg); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes grid-move {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(60px); }
+}

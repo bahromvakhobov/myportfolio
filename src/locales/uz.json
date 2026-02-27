@@ -6,7 +6,8 @@
     "experience": "Tajriba",
     "education": "Ta'lim",
     "contact": "Aloqa",
-    "hireMe": "Yollash"
+    "hireMe": "Yollash",
+    "downloadCV": "CVni yuklab olish"
   },
   "hero": {
     "greeting": "Salom, men",
@@ -41,6 +42,11 @@
   "projects": {
     "title": "Loyihalar",
     "heading": "Tanlangan ishlar",
+    "exploreMore": "Yana ko'rish",
+    "additionalTitle": "Qo'shimcha loyihalar",
+    "additionalTitlePart1": "Qo'shimcha",
+    "additionalTitlePart2": "Loyihalar",
+    "viewAllButton": "GitHubdagi barcha loyihalar",
     "featured": [
       {
         "title": "Toshvziti.uz",
@@ -101,7 +107,7 @@
       {
         "role": "Kichik Backend Dasturchi",
         "company": "RAKUNA LLC",
-        "period": "08/2025 – Hozirgi vaqt",
+        "period": "08/2025 – 09/2025",
         "points": [
           "FastAPI va PostgreSQL yordamida RESTful APIlar ishlab chiqdim",
           "Relatsion ma'lumotlar bazalarini loyihalashtirdim",
@@ -112,7 +118,7 @@
       {
         "role": "Buxgalter",
         "company": "UZBAT AO",
-        "period": "09/2022 – 07/2024",
+        "period": "09/2024 – 02/2025",
         "points": [
           "Moliyaviy ma'lumotlarni tuzdim",
           "Hisobotlar avtomatizatsiyasini yaxshiladim",
@@ -127,8 +133,25 @@
     "degrees": [
       {
         "degree": "Bakalavr darajasi",
-        "field": "Axborot texnologiyalari / Informatika",
-        "description": "Programma injiniriyasi, Backend development, ma'lumotlar strukturalari va algoritmlar, baza tizimlar, AI/ML, kiberxavfsizlik va Linux asosida tizim administratsiyasiga qaratilgan akademik fokus."
+        "field": "Axborot texnologiyalari / Sun'iy intellekt",
+        "description": "Dasturiy muhandislik, Backend development, ma'lumotlar strukturalari va algoritmlar, baza tizimlar, AI/ML, kiberxavfsizlik va Linux asosida tizim administratsiyasiga qaratilgan akademik fokus."
+      }
+    ],
+    "cards": [
+      {
+        "title": "Dasturiy ta'minot muhandisligi bo'yicha bakalavr",
+        "institution": "Millat Umidi Universiteti",
+        "period": "2022 – Hozirgacha",
+        "description": "Dasturiy muhandislik, Backend development, ma'lumotlar strukturalari va algoritmlar, baza tizimlar, AI/ML, kiberxavfsizlik va Linux asosida tizim administratsiyasiga qaratilgan akademik fokus."
+      },
+      {
+        "title": "Full-Stack Python (masofaviy)",
+        "institution": "Mohirdev",
+        "period": "12/2023 – 07/2024 | Toshkent",
+        "points": [
+          "Django, DRF, FastAPI, PostgreSQL va zamonaviy frontend texnologiyalarini qamrab olgan intensiv full-stack ta'limni tugatdim.",
+          "Toza arxitektura tamoyillari va eng yaxshi amaliyotlarga amal qilib, production darajasidagi full-stack ilovalarni yaratdim."
+        ]
       }
     ]
   },
@@ -147,6 +170,9 @@
       "success": "Xabaringiz uchun rahmat! Tez orada siz bilan bog'lanaman."
     },
     "location": "Toshkent, O'zbekiston",
+    "telegram": "Telegram",
+    "github": "GitHub",
+    "email": "Email",
     "footer": "Bahrom Vaxobov tomonidan ishtiyoq bilan qurilgan"
   },
   "language": {

@@ -82,10 +82,10 @@ const ProjectsSection = () => {
           viewport={{ once: true }}
           className="text-center mt-24 mb-12"
         >
-          <p className="text-primary font-mono text-sm tracking-widest uppercase mb-4">Explore More</p>
-          <h3 className="text-3xl md:text-4xl font-bold">
-            Additional <span className="text-gradient">Projects</span>
-          </h3>
+          <p className="text-primary font-mono text-sm tracking-widest uppercase mb-4">{t("projects.exploreMore")}</p>
+            <h3 className="text-3xl md:text-4xl font-bold">
+              {t("projects.additionalTitlePart1")} <span className="text-gradient">{t("projects.additionalTitlePart2")}</span>
+            </h3>
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
@@ -140,7 +140,7 @@ const ProjectsSection = () => {
             className="neon-btn-solid inline-flex items-center gap-2 px-8 py-4 text-lg"
           >
             <Github size={20} />
-            View All Projects on GitHub
+            {t("projects.viewAllButton")}
           </a>
         </motion.div>
       </div>

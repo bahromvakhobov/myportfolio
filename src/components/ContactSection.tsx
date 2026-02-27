@@ -88,12 +88,26 @@ const ContactSection = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label={t("contact.github")}
             >
               <Github size={24} />
             </a>
             <a
+              href="https://t.me/Bahrom_Vaxobov"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label={t("contact.telegram")}
+            >
+              <svg width="24" height="24" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M120 0C53.729 0 0 53.729 0 120s53.729 120 120 120 120-53.729 120-120S186.271 0 120 0z" fill="#0088cc"/>
+                <path d="M48 120l144-48-40 120s-8 8-24 0L96 136l-16 24-32-40z" fill="#fff" opacity="0.95"/>
+              </svg>
+            </a>
+            <a
               href="mailto:vakhobovbahrom@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label={t("contact.email")}
             >
               <Mail size={24} />
             </a>

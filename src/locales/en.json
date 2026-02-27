@@ -6,7 +6,8 @@
     "experience": "Experience",
     "education": "Education",
     "contact": "Contact",
-    "hireMe": "Hire Me"
+    "hireMe": "Hire Me",
+    "downloadCV": "Download CV"
   },
   "hero": {
     "greeting": "Hello, I'm",
@@ -41,6 +42,11 @@
   "projects": {
     "title": "Projects",
     "heading": "Featured Work",
+    "exploreMore": "Explore More",
+    "additionalTitle": "Additional Projects",
+    "additionalTitlePart1": "Additional",
+    "additionalTitlePart2": "Projects",
+    "viewAllButton": "View All Projects on GitHub",
     "featured": [
       {
         "title": "Toshvziti.uz",
@@ -101,7 +107,7 @@
       {
         "role": "Junior Backend Developer",
         "company": "RAKUNA LLC",
-        "period": "08/2025 – Present",
+        "period": "08/2025 – 09/2025",
         "points": [
           "Developed RESTful APIs using FastAPI and PostgreSQL",
           "Designed relational databases",
@@ -112,7 +118,7 @@
       {
         "role": "Accountant",
         "company": "UZBAT AO",
-        "period": "09/2022 – 07/2024",
+        "period": "09/2024 – 02/2025",
         "points": [
           "Structured financial data",
           "Improved reporting automation",
@@ -129,6 +135,23 @@
         "degree": "Bachelor's Degree",
         "field": "Information Technology / Computer Science",
         "description": "Academic focus on Software Engineering, Backend Development, Data Structures & Algorithms, Database Systems, AI/ML, Cybersecurity, and Linux-based system administration."
+      }
+    ],
+    "cards": [
+      {
+        "title": "Bachelor of Software Engineering",
+        "institution": "Millat Umidi University",
+        "period": "2022 – Present",
+        "description": "Academic focus on Software Engineering, Backend Development, Data Structures & Algorithms, Database Systems, AI/ML, Cybersecurity, and Linux-based system administration."
+      },
+      {
+        "title": "Full-Stack Python (Remote)",
+        "institution": "Mohirdev",
+        "period": "12/2023 – 07/2024 | Tashkent",
+        "points": [
+          "Completed intensive full-stack training covering Django, DRF, FastAPI, PostgreSQL, and modern frontend technologies.",
+          "Built production-level full-stack applications following clean architecture principles and best practices."
+        ]
       }
     ]
   },
@@ -147,6 +170,9 @@
       "success": "Thank you for your message! I'll get back to you soon."
     },
     "location": "Tashkent, Uzbekistan",
+    "telegram": "Telegram",
+    "github": "GitHub",
+    "email": "Email",
     "footer": "Built with passion by Bakhrom Vakhobov"
   },
   "language": {

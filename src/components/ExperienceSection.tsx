@@ -66,42 +66,44 @@ const ExperienceSection = () => {
             viewport={{ once: true }}
             className="max-w-3xl mx-auto text-center mt-8"
           >
-          <p className="text-primary font-mono text-sm tracking-widest uppercase mb-4">Education</p>
+          <p className="text-primary font-mono text-sm tracking-widest uppercase mb-4">
+            {t("education.title")}
+          </p>
           <div className="grid md:grid-cols-2 gap-6">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="glass border-glow p-8"
-            >
-              <h3 className="text-xl font-bold text-foreground">Bachelor of Software Engineering</h3>
-              <p className="text-accent mt-1">Millat Umidi University</p>
-              <p className="text-sm text-muted-foreground font-mono mt-2">2022 – Present</p>
-              <p className="mt-4 text-sm text-muted-foreground">
-                Academic focus on Software Engineering, Backend Development, Data Structures &amp; Algorithms, Database Systems, AI/ML, Cybersecurity, and Linux-based system administration.
-              </p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.15 }}
-              className="glass border-glow p-8"
-            >
-              <h3 className="text-xl font-bold text-foreground">Full-Stack Python (Remote)</h3>
-              <p className="text-accent mt-1">Mohirdev</p>
-              <p className="text-sm text-muted-foreground font-mono mt-2">12/2023 – 07/2024 | Tashkent</p>
-              <ul className="mt-4 space-y-2 text-left">
-                <li className="text-sm text-muted-foreground flex items-start gap-2">
-                  <span className="w-1 h-1 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  Completed intensive full-stack training covering Django, DRF, FastAPI, PostgreSQL, and modern frontend technologies.
-                </li>
-                <li className="text-sm text-muted-foreground flex items-start gap-2">
-                  <span className="w-1 h-1 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  Built production-level full-stack applications following clean architecture principles and best practices.
-                </li>
-              </ul>
-            </motion.div>
+            {t("education.cards", { returnObjects: true }).map((card: any, idx: number) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: idx * 0.15 }}
+                className="glass border-glow p-8"
+              >
+                <h3 className="text-xl font-bold text-foreground">{card.title}</h3>
+                <p className="text-accent mt-1">{card.institution}</p>
+                <p className="text-sm text-muted-foreground font-mono mt-2">
+                  {card.period}
+                </p>
+                {card.description && (
+                  <p className="mt-4 text-sm text-muted-foreground">
+                    {card.description}
+                  </p>
+                )}
+                {card.points && (
+                  <ul className="mt-4 space-y-2 text-left">
+                    {card.points.map((point: string, pi: number) => (
+                      <li
+                        key={pi}
+                        className="text-sm text-muted-foreground flex items-start gap-2"
+                      >
+                        <span className="w-1 h-1 rounded-full bg-primary mt-2 flex-shrink-0" />
+                        {point}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </motion.div>
+            ))}
           </div>
           </motion.div>
         </div>

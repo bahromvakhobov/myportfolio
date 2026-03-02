@@ -105,7 +105,7 @@ const ContactSection = () => {
               </svg>
             </a>
             <a
-              href="mailto:vakhobovbahrom@gmail.com"
+              href="mailto:vakhobovbakhrom@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label={t("contact.email")}
             >

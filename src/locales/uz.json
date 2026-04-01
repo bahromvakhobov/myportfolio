@@ -58,7 +58,22 @@
           "Xavfsizlik va joylashtirish barqarorligini mustahkamladim"
         ],
         "tags": ["Django", "PostgreSQL", "REST API", "Docker"],
-        "link": "https://toshvziti.uz/"
+        "link": "https://toshvziti.uz/",
+        "image": "/images/toshvziti.png"
+      },
+      {
+        "title": "Clean Master.uz",
+        "subtitle": "Tozalash xizmatlari platformasi",
+        "description": [
+          "Tozalash xizmati uchun full-stack sayt ishlab chiqildi",
+          "Qidiruv tizimlarida yuqori chiqish uchun SEO joriy qilindi",
+          "Qulay navigatsiya uchun xizmat sahifalari yaratildi",
+          "Sayt tezligi va foydalanuvchi tajribasi yaxshilandi",
+          "Aloqa va call-to-action funksiyalari qo‘shildi"
+        ],
+        "tags": ["Django", "PostgreSQL", "JavaScript", "React"],
+        "link": "https://clean-master.uz",
+        "image": "/images/clean-master.png"
       },
       {
         "title": "Instagram Clone",
@@ -70,7 +85,8 @@
           "Toza arxitektura tamoyillarini qo'lladim"
         ],
         "tags": ["FastAPI", "PostgreSQL", "JWT", "Python"],
-        "link": "https://github.com/Vakhobov/instagram-clone"
+        "link": "https://github.com/Vakhobov/instagram-clone",
+        "image": "/images/instagram-clone.png"
       }
     ],
     "additional": [

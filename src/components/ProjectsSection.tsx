@@ -35,6 +35,9 @@ const ProjectsSection = () => {
               whileHover={{ y: -8, transition: { duration: 0.3 } }}
               className="glass border-glow p-8 group"
             >
+              {project.image && (
+                <img src={project.image} alt={`${project.title} screenshot`} className="w-full h-40 object-cover rounded-lg mb-4" />
+              )}
               <div className="flex items-start justify-between mb-4">
                 <div>
                   <h3 className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors">
@@ -47,6 +50,7 @@ const ProjectsSection = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors p-2"
+                  title={`Visit ${project.title}`}
                 >
                   <ExternalLink size={20} />
                 </a>
@@ -108,6 +112,7 @@ const ProjectsSection = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors p-1 flex-shrink-0"
+                  title={`Visit ${project.title}`}
                 >
                   <Github size={18} />
                 </a>

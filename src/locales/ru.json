@@ -58,7 +58,22 @@
           "Укрепил безопасность и стабильность развертывания"
         ],
         "tags": ["Django", "PostgreSQL", "REST API", "Docker"],
-        "link": "https://toshvziti.uz/"
+        "link": "https://toshvziti.uz/",
+        "image": "/images/toshvziti.png"
+      },
+      {
+        "title": "Clean Master.uz",
+        "subtitle": "Платформа услуг клининга",
+        "description": [
+              "Разработан full-stack сайт для клининговой компании",
+              "Реализована SEO-оптимизация для улучшения позиций в поиске",
+              "Созданы структурированные страницы услуг для удобной навигации",
+              "Оптимизирована производительность и пользовательский опыт",
+              "Добавлены формы связи и call-to-action элементы"
+            ],
+        "tags": ["Django", "PostgreSQL", "JavaScript", "React"],
+        "link": "https://clean-master.uz",
+        "image": "/images/clean-master.png"
       },
       {
         "title": "Instagram Clone",
@@ -70,7 +85,8 @@
           "Применил принципы чистой архитектуры"
         ],
         "tags": ["FastAPI", "PostgreSQL", "JWT", "Python"],
-        "link": "https://github.com/Vakhobov/instagram-clone"
+        "link": "https://github.com/Vakhobov/instagram-clone",
+        "image": "/images/instagram-clone.png"
       }
     ],
     "additional": [

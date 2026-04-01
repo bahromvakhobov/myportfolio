@@ -58,7 +58,22 @@
           "Strengthened security and deployment stability"
         ],
         "tags": ["Django", "PostgreSQL", "REST API", "Docker"],
-        "link": "https://toshvziti.uz/"
+        "link": "https://toshvziti.uz/",
+        "image": "/images/toshvziti.png"
+      },
+      {
+        "title": "Clean Master.uz",
+        "subtitle": "Cleaning Service Platform",
+        "description": [
+                        "Developed a full-stack cleaning service website",
+                        "Implemented SEO optimization for better search ranking",
+                        "Created structured service pages for improved navigation",
+                        "Optimized performance and user experience",
+                        "Integrated contact and call-to-action features"
+                      ],
+        "tags": ["Django", "PostgreSQL", "JavaScript", "React"],
+        "link": "https://clean-master.uz",
+        "image": "/images/clean-master.png"
       },
       {
         "title": "Instagram Clone",
@@ -70,7 +85,8 @@
           "Applied clean architecture principles"
         ],
         "tags": ["FastAPI", "PostgreSQL", "JWT", "Python"],
-        "link": "https://github.com/Vakhobov/instagram-clone"
+        "link": "https://github.com/Vakhobov/instagram-clone",
+        "image": "/images/instagram-clone.png"
       }
     ],
     "additional": [

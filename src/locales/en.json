@@ -49,6 +49,28 @@
     "viewAllButton": "View All Projects on GitHub",
     "featured": [
       {
+        "title": "AResto",
+        "subtitle": "Restaurant Management & Ordering System",
+        "description": [
+        "Developed a full-stack restaurant management and ordering system",
+        "Implemented role-based workflows for Admin, Kitchen, Menu, and Cashier",
+        "Built atomic order processing with PostgreSQL database functions",
+        "Implemented real-time order synchronization using Supabase Realtime",
+        "Added payment management, shift tracking, and restaurant analytics",
+        "Integrated QR-based ordering and 3D/AR food visualization"
+        ],
+        "tags": [
+        "React",
+        "TypeScript",
+        "Supabase",
+        "PostgreSQL",
+        "Firebase",
+        "Vite"
+        ],
+        "link": "https://github.com/Vakhobov/AResto",
+        "image": "/images/aresto.png"
+        },
+      {
         "title": "Toshvziti.uz",
         "subtitle": "Backend Improvements",
         "description": [
@@ -122,8 +144,8 @@
     "jobs": [
       {
         "role": "Junior Backend Developer",
-        "company": "'RAKUN AI' LLC",
-        "period": "08/2025 – 09/2025",
+        "company": "'WIN TO WIN' LLC",
+        "period": "01/2026 – 03/2026",
         "points": [
           "Developed RESTful APIs using FastAPI and PostgreSQL",
           "Designed relational databases",

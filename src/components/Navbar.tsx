@@ -46,8 +46,8 @@ const Navbar = () => {
         </div>
         <div className="flex items-center gap-4">
           <a
-            href="/Bakhrom_cv.pdf"
-            download="Bakhrom_cv.pdf"
+            href="/Bakhrom_Vakhobov.pdf"
+            download="Bakhrom_Vakhobov.pdf"
             className="neon-btn-outline items-center gap-2 px-4 py-2 text-sm"
             aria-label={t("nav.downloadCV")}
           >

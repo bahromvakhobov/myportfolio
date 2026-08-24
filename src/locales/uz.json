@@ -145,8 +145,8 @@
     "jobs": [
       {
         "role": "Kichik Backend Dasturchi",
-        "company": "'WIN TO WIN' LLC",
-        "period": "01/2026 – 03/2026",
+        "company": "'RAKUN AI' LLC",
+        "period": "07/2026 – 09/2026",
         "points": [
           "FastAPI va PostgreSQL yordamida RESTful APIlar ishlab chiqdim",
           "Relatsion ma'lumotlar bazalarini loyihalashtirdim",
@@ -155,7 +155,7 @@
         ]
       },
       {
-        "role": "Buxgalter",
+        "role": "Data & Systems Operations Specialist",
         "company": "UZBAT AO",
         "period": "09/2024 – 02/2025",
         "points": [
@@ -180,7 +180,7 @@
       {
         "title": "Dasturiy ta'minot muhandisligi bo'yicha bakalavr",
         "institution": "Millat Umidi Universiteti",
-        "period": "2022 – Hozirgacha",
+        "period": "2022 – 2026",
         "description": "Dasturiy muhandislik, Backend development, ma'lumotlar strukturalari va algoritmlar, baza tizimlar, AI/ML, kiberxavfsizlik va Linux asosida tizim administratsiyasiga qaratilgan akademik fokus."
       },
       {

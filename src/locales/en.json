@@ -144,8 +144,8 @@
     "jobs": [
       {
         "role": "Junior Backend Developer",
-        "company": "'WIN TO WIN' LLC",
-        "period": "01/2026 – 03/2026",
+        "company": "'RAKUN AI' LLC",
+        "period": "07/2025 – 09/2025",
         "points": [
           "Developed RESTful APIs using FastAPI and PostgreSQL",
           "Designed relational databases",
@@ -154,7 +154,7 @@
         ]
       },
       {
-        "role": "Accountant",
+        "role": "Data & System operations specialist",
         "company": "UZBAT AO",
         "period": "09/2024 – 02/2025",
         "points": [
@@ -179,7 +179,7 @@
       {
         "title": "Bachelor of Software Engineering",
         "institution": "Millat Umidi University",
-        "period": "2022 – Present",
+        "period": "2022 – 2026",
         "description": "Academic focus on Software Engineering, Backend Development, Data Structures & Algorithms, Database Systems, AI/ML, Cybersecurity, and Linux-based system administration."
       },
       {
